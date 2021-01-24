@@ -1,0 +1,5 @@
+#
+# Optional arguments passed to Prometheus node_exporter process
+#
+
+OPTS="--web.config=/etc/prometheus/node_exporter/web-config.yml --log.level=info"
